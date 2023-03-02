@@ -1,0 +1,10 @@
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\bin\Debug\wikiPrototype.exe.config
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\bin\Debug\wikiPrototype.exe
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\bin\Debug\wikiPrototype.pdb
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.csproj.AssemblyReference.cache
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.DataStructureWiki.resources
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.Properties.Resources.resources
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.csproj.GenerateResource.cache
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.csproj.CoreCompileInputs.cache
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.exe
+C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.pdb

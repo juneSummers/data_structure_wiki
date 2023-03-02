@@ -32,7 +32,7 @@ namespace wikiPrototype
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxCategory = new System.Windows.Forms.TextBox();
             this.textBoxStructure = new System.Windows.Forms.TextBox();
-            this.textBoxDescription = new System.Windows.Forms.TextBox();
+            this.textBoxDefinition = new System.Windows.Forms.TextBox();
             this.listViewRecords = new System.Windows.Forms.ListView();
             this.labelName = new System.Windows.Forms.Label();
             this.labelCategory = new System.Windows.Forms.Label();
@@ -53,7 +53,6 @@ namespace wikiPrototype
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(328, 20);
             this.textBoxName.TabIndex = 0;
-            this.textBoxName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBoxCategory
             // 
@@ -69,13 +68,13 @@ namespace wikiPrototype
             this.textBoxStructure.Size = new System.Drawing.Size(328, 20);
             this.textBoxStructure.TabIndex = 2;
             // 
-            // textBoxDescription
+            // textBoxDefinition
             // 
-            this.textBoxDescription.Location = new System.Drawing.Point(82, 125);
-            this.textBoxDescription.Multiline = true;
-            this.textBoxDescription.Name = "textBoxDescription";
-            this.textBoxDescription.Size = new System.Drawing.Size(328, 251);
-            this.textBoxDescription.TabIndex = 3;
+            this.textBoxDefinition.Location = new System.Drawing.Point(82, 125);
+            this.textBoxDefinition.Multiline = true;
+            this.textBoxDefinition.Name = "textBoxDefinition";
+            this.textBoxDefinition.Size = new System.Drawing.Size(328, 251);
+            this.textBoxDefinition.TabIndex = 3;
             // 
             // listViewRecords
             // 
@@ -94,7 +93,6 @@ namespace wikiPrototype
             this.labelName.Size = new System.Drawing.Size(41, 13);
             this.labelName.TabIndex = 5;
             this.labelName.Text = "Name: ";
-            this.labelName.Click += new System.EventHandler(this.label1_Click);
             // 
             // labelCategory
             // 
@@ -147,7 +145,7 @@ namespace wikiPrototype
             this.buttonAdd.TabIndex = 11;
             this.buttonAdd.Text = "Add";
             this.buttonAdd.UseVisualStyleBackColor = true;
-            this.buttonAdd.Click += new System.EventHandler(this.button1_Click);
+            this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
@@ -157,6 +155,7 @@ namespace wikiPrototype
             this.buttonEdit.TabIndex = 12;
             this.buttonEdit.Text = "Edit";
             this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDelete
             // 
@@ -203,12 +202,13 @@ namespace wikiPrototype
             this.Controls.Add(this.labelCategory);
             this.Controls.Add(this.labelName);
             this.Controls.Add(this.listViewRecords);
-            this.Controls.Add(this.textBoxDescription);
+            this.Controls.Add(this.textBoxDefinition);
             this.Controls.Add(this.textBoxStructure);
             this.Controls.Add(this.textBoxCategory);
             this.Controls.Add(this.textBoxName);
             this.Name = "DataStructureWiki";
             this.Text = "Data Structure Wiki";
+            this.Load += new System.EventHandler(this.DataStructureWiki_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -219,7 +219,7 @@ namespace wikiPrototype
         private System.Windows.Forms.TextBox textBoxName;
         private System.Windows.Forms.TextBox textBoxCategory;
         private System.Windows.Forms.TextBox textBoxStructure;
-        private System.Windows.Forms.TextBox textBoxDescription;
+        private System.Windows.Forms.TextBox textBoxDefinition;
         private System.Windows.Forms.ListView listViewRecords;
         private System.Windows.Forms.Label labelName;
         private System.Windows.Forms.Label labelCategory;
