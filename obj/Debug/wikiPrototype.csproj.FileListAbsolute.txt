@@ -8,3 +8,14 @@ C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\
 C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.csproj.CoreCompileInputs.cache
 C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.exe
 C:\Users\joshu\source\repos\wikiPrototype\wikiPrototype\data_structure_wiki\obj\Debug\wikiPrototype.pdb
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\bin\Debug\wikiPrototype.exe.config
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\bin\Debug\wikiPrototype.exe
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\bin\Debug\wikiPrototype.pdb
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.csproj.AssemblyReference.cache
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.csproj.SuggestedBindingRedirects.cache
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.DataStructureWiki.resources
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.Properties.Resources.resources
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.csproj.GenerateResource.cache
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.csproj.CoreCompileInputs.cache
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.exe
+C:\Users\30078246\Documents\GitHub\data_structure_wiki\obj\Debug\wikiPrototype.pdb

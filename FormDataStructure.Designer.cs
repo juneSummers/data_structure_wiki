@@ -29,6 +29,7 @@ namespace wikiPrototype
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.textBoxName = new System.Windows.Forms.TextBox();
             this.textBoxCategory = new System.Windows.Forms.TextBox();
             this.textBoxStructure = new System.Windows.Forms.TextBox();
@@ -45,6 +46,9 @@ namespace wikiPrototype
             this.buttonDelete = new System.Windows.Forms.Button();
             this.buttonSave = new System.Windows.Forms.Button();
             this.buttonLoad = new System.Windows.Forms.Button();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.ColumnHeaderName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ColumnHeaderCategory = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // textBoxName
@@ -53,6 +57,7 @@ namespace wikiPrototype
             this.textBoxName.Name = "textBoxName";
             this.textBoxName.Size = new System.Drawing.Size(328, 20);
             this.textBoxName.TabIndex = 0;
+            this.textBoxName.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.textBoxName_MouseDoubleClick);
             // 
             // textBoxCategory
             // 
@@ -78,12 +83,18 @@ namespace wikiPrototype
             // 
             // listViewRecords
             // 
+            this.listViewRecords.AutoArrange = false;
+            this.listViewRecords.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.ColumnHeaderName,
+            this.ColumnHeaderCategory});
             this.listViewRecords.HideSelection = false;
             this.listViewRecords.Location = new System.Drawing.Point(428, 47);
             this.listViewRecords.Name = "listViewRecords";
             this.listViewRecords.Size = new System.Drawing.Size(346, 329);
             this.listViewRecords.TabIndex = 4;
             this.listViewRecords.UseCompatibleStateImageBehavior = false;
+            this.listViewRecords.View = System.Windows.Forms.View.Details;
+            this.listViewRecords.MouseClick += new System.Windows.Forms.MouseEventHandler(this.listViewRecords_MouseClick);
             // 
             // labelName
             // 
@@ -165,6 +176,7 @@ namespace wikiPrototype
             this.buttonDelete.TabIndex = 13;
             this.buttonDelete.Text = "Delete";
             this.buttonDelete.UseVisualStyleBackColor = true;
+            this.buttonDelete.Click += new System.EventHandler(this.buttonDelete_Click);
             // 
             // buttonSave
             // 
@@ -183,6 +195,16 @@ namespace wikiPrototype
             this.buttonLoad.TabIndex = 15;
             this.buttonLoad.Text = "Load";
             this.buttonLoad.UseVisualStyleBackColor = true;
+            // 
+            // ColumnHeaderName
+            // 
+            this.ColumnHeaderName.Text = "Name";
+            this.ColumnHeaderName.Width = 180;
+            // 
+            // ColumnHeaderCategory
+            // 
+            this.ColumnHeaderCategory.Text = "Category";
+            this.ColumnHeaderCategory.Width = 180;
             // 
             // DataStructureWiki
             // 
@@ -232,6 +254,9 @@ namespace wikiPrototype
         private System.Windows.Forms.Button buttonDelete;
         private System.Windows.Forms.Button buttonSave;
         private System.Windows.Forms.Button buttonLoad;
+        private System.Windows.Forms.ToolTip toolTip1;
+        private System.Windows.Forms.ColumnHeader ColumnHeaderName;
+        private System.Windows.Forms.ColumnHeader ColumnHeaderCategory;
     }
 }
 
